@@ -12,9 +12,10 @@ spring:
     username: root
     password: 12345
   jpa:
+    defer-datasource-initialization: true
     hibernate:
       ddl-auto: update
-
+spring.jpa.defer-datasource-initialization=true
 app:
   environment:
     flights-host: ${flights-host:localhost}
