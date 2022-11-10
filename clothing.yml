@@ -12,7 +12,6 @@ spring:
     username: root
     password: 12345
   jpa:
-    defer-datasource-initialization: true
     hibernate:
       ddl-auto: update
 app:
