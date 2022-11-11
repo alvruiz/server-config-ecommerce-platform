@@ -8,7 +8,7 @@ spring:
   application:
     name: resources
   datasource:
-    url: jdbc:mysql://${customization-db:localhost}:3306/customization-db
+    url: jdbc:mysql://${customization-db:localhost}:3309/customization-db
     username: root
     password: 12345
   jpa:
