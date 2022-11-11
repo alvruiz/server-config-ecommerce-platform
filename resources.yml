@@ -18,9 +18,7 @@ spring:
 
 app:
   environment:
-    flights-host: ${flights-host:localhost}
-    bookings-host: ${bookings-host:localhost}
-    hotels-host: ${hotels-host:localhost}
+    gateway-host: ${gateway-host:localhost}
 
 
 --- # Testing configuration
