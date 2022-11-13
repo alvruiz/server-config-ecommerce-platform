@@ -6,7 +6,7 @@ spring:
     activate:
       on-profile: default
   application:
-    name: resources
+    name: customization
   datasource:
     url: jdbc:mysql://${customization-db:localhost}:3306/customization-db
     username: root
