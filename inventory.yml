@@ -6,7 +6,7 @@ spring:
     activate:
       on-profile: default
   application:
-    name: customization
+    name: inventory
   datasource:
     url: jdbc:mysql://${inventory-db:localhost}:3306/inventory-db
     username: root
