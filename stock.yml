@@ -8,7 +8,7 @@ spring:
   application:
     name: stock
   datasource:
-    url: jdbc:mysql://${stock-db:localhost}:3311/stock-db
+    url: jdbc:mysql://${stock-db:localhost}:3306/stock-db
     username: root
     password: 12345
   jpa:
