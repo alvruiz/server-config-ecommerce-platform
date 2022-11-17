@@ -1,6 +1,6 @@
 server:
-  port: 8082
-
+  port: ${random.int(5000,5100)}
+  
 spring:
   config:
     activate:
